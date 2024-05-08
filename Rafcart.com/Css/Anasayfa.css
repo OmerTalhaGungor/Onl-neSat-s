@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+.footer{
+    background-color: rgb(217, 217, 217);
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 3300px;
+}
+
+
+.footer-1{
+    margin-left: 80px;
+}
+
+.f{
+    float: left;
+}
+
+ol{
+
+    padding: 0px 0px 0px 100px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(111, 111, 111);
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(227, 227, 227);
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+  }
+  .menu ul{
+      float: left;
+      list-style: none;
+      padding-left: 75px;
+      padding-top: 5px;
+  }
+  .menu li{
+      float: left;
+      padding: 20px 20px;
+  }
+   .menu a{
+      text-decoration: none;
+      color: rgb(40, 39, 39);
+      font-size: 18px;
+      font-family: sans-serif;
+      font-size: 16px;
+    }
+    /* .menuic a{  
+       background-color: antiquewhite;
+    } */
+    .menuic{
+        display: inline-block;
+        padding-left: 500px;
+        
+    }
+
+    /* --------------------------------------------------RAFCART------------------------------------------------- */
+
+    .RAFCART{
+        height: 90px;
+        width: 100%;
+        background-color: rgb(227, 65, 81);
+        position: relative;
+        
+    }
+    .RAFCART h1{
+    
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(48, 47, 47);
+        padding: 25px;
+        padding-left: 180px;
+        display: inline-block;
+        padding-right: 100px;
+    }
+    .RAF{
+        color: white;
+        font-weight: 500;
+    }
+    .search{
+        width: 500px;
+        height: 25px;
+        border-radius: 5px;
+        padding-top: 15px;
+        font-size: 15px;
+        position: absolute;
+        top: 20px;
+        padding-top: 20px;
+    }
+    .a1{
+        background-color: rgb(53, 53, 53);
+        color: white;
+        text-decoration: none;
+        padding: 14px 50px;
+        font-size:15px;
+        position: absolute;
+        left: 800px;
+        top: 20px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .Sear{
+        margin-right: 50px;
+    }
+    
+
+
+/* --------------------------------------Menu2----------------------------------------- */
+.menu-2{
+        width: 100%;
+        height: 70px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+
+}
+.menu-2 ul{
+          float: left;
+          list-style: none;
+          padding-left: 75px;
+          padding-top: 5px;
+}
+.menu-2 li{
+          float: left;
+          padding: 20px 20px;
+}
+.menu-2 a{
+    text-decoration: none;
+    color: rgb(40, 39, 39);
+    font-size: 18px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+        /* .menuic a{  
+           background-color: antiquewhite;
+        } */
+.menuic-2{
+    display: inline-block;
+    padding-left: 147px;
+            
+}
+.All{
+    background-color: rgb(158, 156, 156);
+    color: white;
+    padding: 20px 20px;
+}
+/* --------------------------------------Menu2----------------------------------------- */
+
+.menu-3{
+
+        height: 70px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 64px;
+        display: inline-block; 
+        left: 50px;
+}
+.menu-3 ul{
+          list-style: none;
+          padding-left: 44px;
+
+
+}
+.menu-3 li{
+          background-color: rgb(255, 255, 255);
+          padding: 15px 59px;
+          border-bottom: 1px solid rgb(206, 206, 206);
+          border: 1px solid rgb(235, 235, 235);
+          width: 50px;
+}
+.menu-3 a{
+    text-decoration: none;
+    color: rgb(40, 39, 39);
+    font-size: 18px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.dikeymenu:hover{
+    background-color: rgb(121, 121, 121);
+
+}
+        /* .menuic a{  
+           background-color: antiquewhite;
+        } */
+.menuic-3{
+    display: inline-block;
+    padding-left: 150px;
+            
+}
+.All{
+    background-color: rgb(39, 37, 48);
+    padding: 20px 30px;
+}
+.ImageBox{
+    width: 970px;
+    height: 450px; 
+    position: relative;
+    left: 423px;
+    top: 73px;
+}
+.Image1{
+    width: 730px;
+    height: 440px;
+    background-color: aqua;
+    position: absolute;
+    left: 10px;
+    background-image: url(/Image/Adam.PNG);
+    background-size: cover;
+   
+}
+.Image2{
+    width: 290px;
+    height: 220px;
+    background-color: aqua;
+    position: absolute;
+    left: 760px;
+    background-image: url(/Image//krampon.PNG);
+    background-size: 300px;
+   
+}
+.Image3{
+    width: 290px;
+    height: 200px;
+    background-color: rgb(229, 235, 235);
+    position: absolute;
+    left: 760px;
+    top: 240px;
+    background-image: url(/Image/glass.png);
+    background-size: cover;
+    /* background-image: url(/Image/gozluk.PNG);
+    background-image: url(/Image/gozluk.PNG); */
+    background-size: 250px;
+    background-repeat:no-repeat;
+    background-position: 30px;
+    
+   
+}
+.All-renk{
+    color: rgb(255, 255, 255);
+}
+.container{
+    display: inline-block;
+    position: relative;
+    right: 80px;
+ 
+}
+
+.information{
+    width: 1200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 150px;
+    left:335px;
+
+}
+.truck{
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+    float: left;
+    position: absolute;
+}
+.money{
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+    float: left;
+    position: absolute;
+    left: 350px;
+}
+.support{
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+    float: left;
+    position: absolute;
+    left: 700px;
+}
+.bi-truck{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.content{
+
+    position:  absolute;
+    top: 800px;
+    left: 150px;
+}
+.box_1{
+    
+  
+    width: 320px;
+    height: 320px;
+    border-radius: 3%;
+    font-family:Arial, Helvetica, sans-serif;
+    float: left;
+
+}
+.box_1 a{
+    text-decoration: none;
+}
+.box_1 h1{
+    color: #f9430a;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.box_h3{
+    color: rgb(51, 51, 51);
+    padding: 0px 0px 0px 10px;
+    font-weight: 300;
+}
+.ADD-TO{
+    background-color: rgb(203, 61, 61);
+    color: white;
+    padding: 10px 102px ;
+}
+.FLASH{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.comtainer-2{
+    width: 1200px;
+
+    height: auto;
+    position: relative;
+    top: 600px;
+    left: 160px;
+
+}
+.shoe{
+    width: 160px;
+    height: 140px;
+    border: 1px solid rgb(236, 231, 231);
+    float: left;
+    margin: 10px;
+    font-size: x-large;
+    font-family: Comic Sans MS;
+    color:rgb(0, 0, 0);
+
+}
+.OFF{
+    position: absolute;
+    top: 450px;
+    right: 100px;
+    width: 1100px;
+    height: 300px;
+    background-color: rgb(247, 241, 241);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+
+    
+
+}
+.OFF-yazi h1{
+    display: inline-block;
+
+
+}
+.OFF p{
+    font-size: 21px;
+}
+.yan{
+    float: left;
+}
+.ic{
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.im{
+    position: absolute;
+    
+}
+.content-2{
+    position:  absolute;
+    top: 2100px;
+    left: 150px;
+
+}
+.pad{
+    padding-left: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+    
+
+.download{
+    width: 1100px;
+    height: 455px;
+    background-color: rgb(237, 237, 237);
+    position: absolute;
+    left: 200px;
+    top: 2700px;
+}
+.resim{
+    position: absolute;
+    left: 50px;
+}
+.yazı{
+
+    height: 455px;
+    width: 600;
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    z-index: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.yazı p{
+    font-size: 15px;
+}
+.bosluk{
+    padding: 100px;
+    padding-left: 50px;
+
+}
+.btn1{
+    background-color: rgb(11, 11, 11);
+    color: rgb(244, 244, 244);
+    padding: 15px 30px 15px 30px;
+
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn2{
+ 
+
+    padding: 15px 30px 15px 30px;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+.ek{
+    padding-right: 200px;
+}
+
+/* -------------------------------------------------------------------- */
+
+
+
+
+.box-menu ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box-menu li{
+    float: left;
+
+}
+
+.box-menu li a{
+    display: inline-block;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li.menu {
+    display: inline-block;
+}
+
+.acilir {
+    display: none;
+    position: absolute;
+    top: 80px;
+    background-color: #ffffff;
+    min-width: 160px;
+}
+
+.acilir a {
+    display: block;
+    text-align: left;
+ 
+}
+
+
+.menu:hover .acilir {
+    display: block;
+    color: rgb(253, 253, 253);
+
+}
+
+
+
+.menu-yer{
+    position: relative;
+    padding-left: 450px;
+}
